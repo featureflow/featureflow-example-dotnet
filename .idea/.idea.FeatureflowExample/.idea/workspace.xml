@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c6bd96ee-056c-4338-bc66-385aa5bcc6b3" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.FeatureflowExample/.idea/contentModel.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.FeatureflowExample/.idea/indexLayout.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.FeatureflowExample/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.FeatureflowExample/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/FeatureflowExample.sln" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/FeatureflowExample/Controllers/TodoController.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/FeatureflowExample/Controllers/ValuesController.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/FeatureflowExample/FeatureflowExample.csproj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/FeatureflowExample/Models/TodoContext.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/FeatureflowExample/Models/TodoItem.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/FeatureflowExample/Program.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/FeatureflowExample/Properties/launchSettings.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/FeatureflowExample/Services/FeatureflowService.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/FeatureflowExample/Services/IFeatureflowService.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/FeatureflowExample/Startup.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/FeatureflowExample/appsettings.Development.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/FeatureflowExample/appsettings.json" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FeatureflowExample/Startup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="30" column="12" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+              <folding>
+                <marker date="1519732454036" expanded="true" signature="6:497" ph="..." />
+                <marker date="1519732454036" expanded="true" signature="527:1491" ph="{...}" />
+                <marker date="1519732454036" expanded="true" signature="554:1489" ph="{...}" />
+                <marker date="1519732454036" expanded="true" signature="613:676" ph="{...}" />
+                <marker date="1519732454036" expanded="true" signature="899:1134" ph="{...}" />
+                <marker date="1519732454036" expanded="true" signature="1322:1483" ph="{...}" />
+                <marker date="1519732454036" expanded="true" signature="1369:1446" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TodoController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FeatureflowExample/Controllers/TodoController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+              <folding>
+                <marker date="1519733034886" expanded="true" signature="6:178" ph="..." />
+                <marker date="1519733034886" expanded="true" signature="220:2789" ph="{...}" />
+                <marker date="1519733034886" expanded="true" signature="299:2787" ph="{...}" />
+                <marker date="1519733034886" expanded="true" signature="498:813" ph="{...}" />
+                <marker date="1519733034886" expanded="true" signature="662:803" ph="{...}" />
+                <marker date="1519733034886" expanded="true" signature="870:1115" ph="{...}" />
+                <marker date="1519733034886" expanded="true" signature="943:1045" ph="{...}" />
+                <marker date="1519733034886" expanded="true" signature="1206:1437" ph="{...}" />
+                <marker date="1519733034886" expanded="true" signature="1321:1384" ph="{...}" />
+                <marker date="1519733034886" expanded="true" signature="1519:1788" ph="{...}" />
+                <marker date="1519733034886" expanded="true" signature="1559:1624" ph="{...}" />
+                <marker date="1519733034886" expanded="true" signature="1886:2394" ph="{...}" />
+                <marker date="1519733034886" expanded="true" signature="1943:2008" ph="{...}" />
+                <marker date="1519733034886" expanded="true" signature="2114:2177" ph="{...}" />
+                <marker date="1519733034886" expanded="true" signature="2469:2781" ph="{...}" />
+                <marker date="1519733034886" expanded="true" signature="2584:2647" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ControllerBase.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7469EA46-1AEA-47E2-BA3B-AAD4E0506E84/54/715ec250/ControllerBase.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1388" column="34" lean-forward="false" selection-start-line="1388" selection-start-column="34" selection-end-line="1388" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FeatureflowService.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FeatureflowExample/Services/FeatureflowService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+              <folding>
+                <marker date="1519733426648" expanded="true" signature="64:367" ph="{...}" />
+                <marker date="1519733426648" expanded="true" signature="124:365" ph="{...}" />
+                <marker date="1519733426648" expanded="true" signature="216:342" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IFeatureflowService.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FeatureflowExample/Services/IFeatureflowService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+              <folding>
+                <marker date="1519732576460" expanded="true" signature="64:163" ph="{...}" />
+                <marker date="1519732576460" expanded="true" signature="107:161" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/FeatureflowExample/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7469EA46-1AEA-47E2-BA3B-AAD4E0506E84/54/715ec250/ControllerBase.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/FeatureflowExample/Services/FeatureflowService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FeatureflowExample/Controllers/TodoController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FeatureflowExample/Services/IFeatureflowService.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/FeatureflowExample/Startup.cs" />
+        <option value="$PROJECT_DIR$/FeatureflowExample/Services/IFeatureflowService.cs" />
+        <option value="$PROJECT_DIR$/FeatureflowExample/Controllers/TodoController.cs" />
+        <option value="$PROJECT_DIR$/FeatureflowExample/Services/FeatureflowService.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="37" />
+    <option name="y" value="-1057" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="FeatureflowExample (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="FeatureflowExample (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="FeatureflowExample" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="FeatureflowExample (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="FeatureflowExample" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="FeatureflowExample (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="FeatureflowExample" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Services" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6bd96ee-056c-4338-bc66-385aa5bcc6b3" name="Default" comment="" />
+      <created>1519731279524</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1519731279524</updated>
+      <workItem from="1519731285181" duration="1714000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1714000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="37" y="-1057" width="1920" height="1057" extended-state="6" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37110186" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25239617" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/FeatureflowExample/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="30" column="12" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+          <folding>
+            <marker date="1519732454036" expanded="true" signature="6:497" ph="..." />
+            <marker date="1519732454036" expanded="true" signature="527:1491" ph="{...}" />
+            <marker date="1519732454036" expanded="true" signature="554:1489" ph="{...}" />
+            <marker date="1519732454036" expanded="true" signature="613:676" ph="{...}" />
+            <marker date="1519732454036" expanded="true" signature="899:1134" ph="{...}" />
+            <marker date="1519732454036" expanded="true" signature="1322:1483" ph="{...}" />
+            <marker date="1519732454036" expanded="true" signature="1369:1446" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7469EA46-1AEA-47E2-BA3B-AAD4E0506E84/54/715ec250/ControllerBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1388" column="34" lean-forward="false" selection-start-line="1388" selection-start-column="34" selection-end-line="1388" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FeatureflowExample/Controllers/TodoController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+          <folding>
+            <marker date="1519733034886" expanded="true" signature="6:178" ph="..." />
+            <marker date="1519733034886" expanded="true" signature="220:2789" ph="{...}" />
+            <marker date="1519733034886" expanded="true" signature="299:2787" ph="{...}" />
+            <marker date="1519733034886" expanded="true" signature="498:813" ph="{...}" />
+            <marker date="1519733034886" expanded="true" signature="662:803" ph="{...}" />
+            <marker date="1519733034886" expanded="true" signature="870:1115" ph="{...}" />
+            <marker date="1519733034886" expanded="true" signature="943:1045" ph="{...}" />
+            <marker date="1519733034886" expanded="true" signature="1206:1437" ph="{...}" />
+            <marker date="1519733034886" expanded="true" signature="1321:1384" ph="{...}" />
+            <marker date="1519733034886" expanded="true" signature="1519:1788" ph="{...}" />
+            <marker date="1519733034886" expanded="true" signature="1559:1624" ph="{...}" />
+            <marker date="1519733034886" expanded="true" signature="1886:2394" ph="{...}" />
+            <marker date="1519733034886" expanded="true" signature="1943:2008" ph="{...}" />
+            <marker date="1519733034886" expanded="true" signature="2114:2177" ph="{...}" />
+            <marker date="1519733034886" expanded="true" signature="2469:2781" ph="{...}" />
+            <marker date="1519733034886" expanded="true" signature="2584:2647" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FeatureflowExample/Services/IFeatureflowService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding>
+            <marker date="1519732576460" expanded="true" signature="64:163" ph="{...}" />
+            <marker date="1519732576460" expanded="true" signature="107:161" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FeatureflowExample/Services/FeatureflowService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <marker date="1519733426648" expanded="true" signature="64:367" ph="{...}" />
+            <marker date="1519733426648" expanded="true" signature="124:365" ph="{...}" />
+            <marker date="1519733426648" expanded="true" signature="216:342" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

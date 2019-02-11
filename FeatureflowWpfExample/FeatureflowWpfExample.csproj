@@ -62,6 +62,9 @@
     <Compile Include="Views\SimpleSwitchPage.xaml.cs">
       <DependentUpon>SimpleSwitchPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\TrafficLightPage.xaml.cs">
+      <DependentUpon>TrafficLightPage.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -78,6 +81,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Views\SimpleSwitchPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\TrafficLightPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -107,12 +114,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\featureflow-dotnet-client\Featureflow\Featureflow.csproj">
-      <Project>{f4d323c7-0600-4e1e-9d3b-407904a7b3aa}</Project>
-      <Name>Featureflow</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

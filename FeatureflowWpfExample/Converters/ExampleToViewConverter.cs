@@ -25,6 +25,10 @@ namespace FeatureflowWpfExample.Converters
                     case ExampleTag.SimpleSwitch:
                         pathToXaml = "Views/SimpleSwitchPage.xaml";
                         break;
+
+                    case ExampleTag.TrafficLight:
+                        pathToXaml = "Views/TrafficLightPage.xaml";
+                        break;
                 }
 
                 if (pathToXaml != null)

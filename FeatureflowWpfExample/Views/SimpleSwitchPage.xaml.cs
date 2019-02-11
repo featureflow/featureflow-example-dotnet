@@ -55,7 +55,10 @@ namespace FeatureflowWpfExample.Views
 
         private void Client_FeatureUpdated(Featureflow.Client.IFeatureflowClient sender, Featureflow.Client.FeatureUpdatedEventArgs args)
         {
-            UpdateFeatureValue();
+            if (args.FeatureKey == ExampleFeatureKey)
+            {
+                UpdateFeatureValue();
+            }
         }
 
         private void UpdateFeatureValue()

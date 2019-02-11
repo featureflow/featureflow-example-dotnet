@@ -57,6 +57,7 @@
     </ApplicationDefinition>
     <Compile Include="BaseExamplePage.cs" />
     <Compile Include="Converters\BooleanToOnOffConverter.cs" />
+    <Compile Include="Converters\ColorToBrushConverter.cs" />
     <Compile Include="SingleEntryFrame.cs" />
     <Compile Include="Views\SimpleSwitchPage.xaml.cs">
       <DependentUpon>SimpleSwitchPage.xaml</DependentUpon>

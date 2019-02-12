@@ -13,33 +13,30 @@ namespace FeatureflowWpfExample
     /// <returns></returns>
     static class FeatureflowClientProvider
     {
-        private static FeatureflowClient _client;
+        private static IFeatureflowClient _client;
 
         internal static void IntializeClient(string apiKey)
         {
-            EnsureUninitialized();
-            _client = new FeatureflowClient(apiKey);
+            IntializeClient(apiKey, null, null);
         }
 
         internal static void IntializeClient(string apiKey, FeatureflowConfig config)
         {
-            EnsureUninitialized();
-            _client = new FeatureflowClient(apiKey, null, config);
+            IntializeClient(apiKey, null, config);
         }
 
         internal static void IntializeClient(string apiKey, IEnumerable<Feature> predefinedFeatures)
         {
-            EnsureUninitialized();
-            _client = new FeatureflowClient(apiKey, predefinedFeatures);
+            IntializeClient(apiKey, predefinedFeatures, null);
         }
 
         internal static void IntializeClient(string apiKey, IEnumerable<Feature> predefinedFeatures, FeatureflowConfig config)
         {
             EnsureUninitialized();
-            _client = new FeatureflowClient(apiKey, predefinedFeatures, config);
+            _client = Create(apiKey, predefinedFeatures, config);
         }
 
-        internal static FeatureflowClient GetClient()
+        internal static IFeatureflowClient GetClient()
         {
             EnsureInitialized();
             return _client;
@@ -59,6 +56,11 @@ namespace FeatureflowWpfExample
             {
                 throw new ApplicationException("Featureflow client must be initialized before using");
             }
+        }
+
+        private static IFeatureflowClient Create(string apiKey, IEnumerable<Feature> predefinedFeatures, FeatureflowConfig config)
+        {
+            return FeatureflowClientFactory.Create(apiKey, predefinedFeatures, config);
         }
     }
 }
